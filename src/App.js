@@ -40,7 +40,7 @@ const renderDate = () =>{
         </div>
           <p className='datetext'>{renderDate()} </p>
           <div className='weatherdesc d-flex flex-c'>
-            <img src={`https://openweathermap.org/img/wn/${weather.weather[0].icon} @2x.png`} alt=""/>
+            <img src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt=""/>
             <h3>{weather.weather[0].description}</h3> 
           </div>
 
